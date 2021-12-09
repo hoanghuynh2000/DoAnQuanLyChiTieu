@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Quanli</string>
+    <string name="title_activity_trangchu">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nhapmapin">Nhập Mã Pin</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="taomapin">Tạo Mã Pin</string>
+    <string name="luudangnhap">Lưu Đăng Nhập</string>
+    <string name="sodu">0</string>
+    <string name="Chi_Tiet">Chi Tiết</string>
+    <string name="Chinh_sua">Chỉnh Sửa</string>
+    <string name="xoa">Xóa</string>
+    <string name="hoten">Họ Tên</string>
+    <string name="sodienthoai">Số Điện Thoại</string>
+    <string name="nhaptaomapin">Nhập Mã Pin</string>
+    <string name="nhaplaimapin">Nhập Lại Mã Pin</string>
+    <string name="dong_y">Đồng ý</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="them">Thêm</string>
+    <string name="ngaythang">Ngày Tháng</string>
+    <string name="tongthu">Tổng Thu</string>
+    <string name="tongchi">Tổng Chi</string>
+    <string name="thoigian">Thời Gian</string>
+    <string name="sotien">Số Tiền</string>
+    <string name="chitiet">Chi Tiết</string>
+    <string name="thongkethang">Thông Kê Tháng</string>
+    <string name="quaylai">btquaylai</string>
+    <string name="thongbao">Thông Báo</string>
+    <string-array name="Thu">
+        <item>Lương</item>
+        <item>Quà Tặng</item>
+        <item>Tiền Lãi</item>
+        <item>Tất Toán</item>
+        <item>Khác</item>
+    </string-array>
+    <string-array name="planets_array">
+        <item>Mua Sắm</item>
+        <item>Giao Thông</item>
+        <item>Ăn Uống</item>
+        <item>Nhà Cửa</item>
+        <item>Bảo Hiểm</item>
+        <item>Du Lịch</item>
+        <item>Dịch Vụ</item>
+        <item>Trả Vay</item>
+        <item>Khác</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

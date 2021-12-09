@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_KhoanVay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KhoanVay">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/geekhound_iphone_wallpaper_576x1024">
+
+        <LinearLayout
+            android:layout_width="420dp"
+            android:layout_height="451dp"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvtienhangay"
+                    android:layout_width="173dp"
+                    android:layout_height="31dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Tổng Vay"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtKhoanvay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="635210000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="183dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Lãi"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtlaivay"
+                    android:layout_width="209dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="0"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="170dp"
+                    android:layout_height="31dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Trả Gốc"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/tragoc"
+                    android:layout_width="206dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="0"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="177dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Tổng Tiền"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edttongtientravay"
+                    android:layout_width="209dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="0"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Ngày Đóng"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName7"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="03"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Tổng Số Tháng"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtsothang"
+                    android:layout_width="165dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="170"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btntinh"
+                    android:layout_width="193dp"
+                    android:layout_height="78dp"
+                    android:text="Tính" />
+
+                <Button
+                    android:id="@+id/btnthanhtoan"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Đã Thanh Toán" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="198dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="173dp"
+            android:layout_marginLeft="173dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="162dp"
+            android:layout_marginRight="162dp"
+            android:fontFamily="@font/baloo_thambi"
+            android:text="KHOẢN VAY"
+            android:textColor="#EC0808"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.563"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

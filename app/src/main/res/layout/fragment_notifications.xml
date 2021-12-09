@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0sp"
+    android:background="@drawable/abc"
+    android:visibility="visible"
+    tools:context=".NotificationsFragment">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="405dp"
+        android:layout_height="81dp"
+        android:background="#00FFFFFF"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Thống Kê"
+        android:textColor="#FF0808"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="371dp"
+        android:layout_height="489dp"
+        app:cardBackgroundColor="#51FFFFFF"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <ScrollView
+            android:layout_width="372dp"
+            android:layout_height="486dp"
+            android:layout_marginTop="10dp"
+            android:background="#79FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CDFAFAFA"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="399dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="386dp"
+                        android:layout_height="65dp"
+                        android:gravity="center_horizontal|left|center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="40dp">
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Theo Ngày"
+                            android:textColor="#D5720D"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/btchitietngay"
+                            android:layout_width="85dp"
+                            android:layout_height="41dp"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/Chi_Tiet"
+                            android:textColor="#000000"
+                            android:textColorHighlight="#000000"
+                            android:textColorHint="#000000" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/edttheongay"
+                        android:layout_width="378dp"
+                        android:layout_height="41dp"
+                        android:ems="10"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:inputType="date"
+                        android:textColor="#000000"
+                        android:textColorHighlight="#000000"
+                        android:textColorHint="#000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:gravity="center_horizontal|top|center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tổng Thu"
+                            android:textColor="#000000"
+                            android:textColorHighlight="#000000"
+                            android:textColorHint="#000000"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/edttongthungay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="28dp"
+                            android:layout_marginLeft="28dp"
+                            android:layout_marginTop="10dp"
+                            android:ems="10"
+                            android:hint="0"
+                            android:inputType="textPersonName"
+                            android:textColor="#000000"
+                            android:textColorHighlight="#000000"
+                            android:textColorHint="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="61dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tổng Chi"
+                            android:textColor="#000000"
+                            android:textColorHighlight="#000000"
+                            android:textColorHint="#000000"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/edttongchingay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginTop="4dp"
+                            android:ems="10"
+                            android:hint="0"
+                            android:inputType="textPersonName"
+                            android:textColor="#000000"
+                            android:textColorHighlight="#000000"
+                            android:textColorHint="#000000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:gravity="center_horizontal|left|center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="32dp"
+                            android:text="Theo Tháng"
+                            android:textColor="#B86A1A"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/btchitietthang"
+                            android:layout_width="89dp"
+                            android:layout_height="32dp"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/Chi_Tiet"
+                            android:textColor="#000000"
+                            android:textColorHighlight="#000000"
+                            android:textColorHint="#000000" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/edttheothang"
+                        android:layout_width="373dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:inputType="date"
+                        android:textColor="#000000"
+                        android:textColorHighlight="#000000"
+                        android:textColorHint="#000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tổng Thu"
+                            android:textColor="#000000"
+                            android:textColorHighlight="#000000"
+                            android:textColorHint="#000000"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/edttongthuthang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="28dp"
+                            android:ems="10"
+                            android:hint="0"
+                            android:inputType="textPersonName"
+                            android:textColor="#000000"
+                            android:textColorHighlight="#000000"
+                            android:textColorHint="#000000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tổng Chi"
+                            android:textColor="#000000"
+                            android:textColorHighlight="#000000"
+                            android:textColorHint="#000000"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/edttongchithang"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="28dp"
+                            android:ems="10"
+                            android:hint="0"
+                            android:inputType="textPersonName"
+                            android:textColor="#000000"
+                            android:textColorHighlight="#000000"
+                            android:textColorHint="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="7dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="Khác"
+                            android:textColor="#AE6E03"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/tvkhacthungay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Chi Tiết"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
